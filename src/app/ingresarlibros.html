@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+  <html>
+    <head>
+	<meta charset="UTF-8">
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+	  <link type="text/css" rel="stylesheet" href="css/estilos.css"  media="screen,projection"/>
+
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+	  
+	  <h1 colspan="12" align="center" class="Estilo1">Ingresar libros</h1>
+	  <table width="200" border="1" align="center">
+	  <div class="row" class="valign-wrapper">
+    <form name="formulario" action="insertarPhp.php" method="POST" class="col s12">
+      <div class="row">
+        <div class="input-field col s4">
+          <input name="codigo" id="codigo" type="text" class="validate">
+          <label for="codigo">Código</label>
+        </div>
+        <div class="input-field col s4">
+          <input name="nombre"id="nombre" type="text" class="validate">
+          <label for="nombre">Nombre del Libro</label>
+        </div>
+      </div>
+	  <div class="row">
+        <div class="input-field col s4">
+          <input name="editorial"id="editorial" type="text" class="validate">
+          <label for="editorial">Editorial</label>
+        </div>
+        <div class="input-field col s4">
+          <input name="cantPag"id="cantPag" type="number" class="validate">
+          <label for="cantPag">Cantidad de páginas</label>
+        </div>
+       </div>
+	   <label for="añoPubli">Año de publicación</label>
+	   <div class="row">
+        <div class="input-field col s4">
+        <input name="añoPubli"id="añoPubli" type="date" class="validate">  
+        </div>
+		
+		<div class="input-field col s4">
+          <input name="autor"id="autor" type="text" class="validate">
+          <label for="autor">Autor</label>
+        </div>
+	   </div>
+	   <div class="row">
+	   <div class="input-field col s4">
+          <input name="cantEjemp"id="cantEjemp" type="text" class="validate">
+          <label for="cantEjemp">Cantidad de Ejemplares</label>
+        </div>
+	   </div>
+	   
+	   <button method="POST" type="submit">Enviar</button>
+	 
+	  <a class="waves-effect waves-light btn" href="index.html">Volver</a>
+     
+    </form>
+  </div>
+	  </table>
+	  
+    </body>
+  </html>
+        
