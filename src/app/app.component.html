@@ -2,7 +2,14 @@
   <html>
     <head>
 	<meta charset="UTF-8">
+
       <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="assets/stilos.css">
+      <link rel="stylesheet" href="fonts.css">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="assets/main.js"></script>
+
+
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -33,6 +40,50 @@
 </nav>
 	  
 	  </table>
+
+       
+<div class="main">
+  <div class="slides">
+    <img src="assets/img/W_1.png" alt="">
+    <img src="assets/img/W_2.png" alt="">
+    <img src="assets/img/W_3.png" alt="">
+    <img src="assets/img/W_4.jpg" alt="">
+    <img src="assets/img/W_5.jpg" alt="">
+    <img src="assets/img/W_6.jpg" alt="">
+    <img src="assets/img/W_7.jpg" alt="">
+  </div>
+</div>
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="js/jquery.slides.js"></script>
+
+<script>
+   $(function(){
+  $(".slides").slidesjs({
+    play: {
+      active: true,
+        // [boolean] Generate the play and stop buttons.
+        // You cannot use your own buttons. Sorry.
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 3000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+  </script>
+  <div id="dimen">
+     <div id="art">
+      <li><img src="assets/img/foto23.jpg" alt=""></li>
+     </div>
+
 
 
     </body>
