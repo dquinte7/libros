@@ -20,7 +20,7 @@
 	  
 	  
 	  
-	  <a class="waves-effect waves-light btn" href="index.html">Volver</a>
+	  <a class="waves-effect waves-light btn" href="http://localhost/biblioteca/src/app/app.component.html">Volver</a>
 	  </form>
 	  <center>
 	    <form action="eliminar.php" method="POST">
