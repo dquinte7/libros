@@ -103,13 +103,13 @@ div#dimen{
     margin-top:none;
     width: 1000px;
     height: 330px;
-    background-color: #e6ee9c;
+    background-color: #263238;
 }
 div#art{
     float: right;
     width: 480px;
     height: 330px;
-    background-color: #d4e157;
+    background-color: #263238;
 }
 div#art img{
     float: right;
@@ -120,7 +120,7 @@ div#art img{
 div#art2{
     width: 490px;
     height: 330px;
-    background-color: #d4e157;
+    background-color: #263238;
 }
 .social{
     position: fixed;
