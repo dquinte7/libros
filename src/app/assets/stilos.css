@@ -254,8 +254,9 @@ div#textt4 p {
     width:95%;
     max-width: 1000px;
     margin:auto;
+    
 }
-.images img{
+.reg{
     width: 20px;
     height: 10px;
     max-width: 1000px;

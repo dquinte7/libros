@@ -43,57 +43,70 @@
 
 	  <h1 colspan="12" align="center" class="Estilo1">Ingresar libros</h1>
 
-    <div class="reg">
+    <div class="formu">
 
 	  <table width="200" border="1" align="center">
 	  <div class="row" class="valign-wrapper">
+
     <form name="formulario" action="insertarPhp.php" method="POST" class="col s12">
       <div class="row">
-        <div class="input-field col s4">
+        <div class="input-field col s6">
           <input name="codigo" id="codigo" type="text" class="validate">
           <label for="codigo">Código</label>
         </div>
-        <div class="input-field col s4">
+        <div class="input-field col s6">
           <input name="nombre"id="nombre" type="text" class="validate">
           <label for="nombre">Nombre del Libro</label>
         </div>
       </div>
 	  <div class="row">
-        <div class="input-field col s4">
+        <div class="input-field col s6">
           <input name="editorial"id="editorial" type="text" class="validate">
           <label for="editorial">Editorial</label>
         </div>
-        <div class="input-field col s4">
+        <div class="input-field col s6">
           <input name="cantPag"id="cantPag" type="number" class="validate">
           <label for="cantPag">Cantidad de páginas</label>
         </div>
        </div>
 	   <label for="añoPubli">Año de publicación</label>
 	   <div class="row">
-        <div class="input-field col s4">
+        <div class="input-field col s6">
         <input name="añoPubli"id="añoPubli" type="date" class="validate">  
         </div>
 		
-		<div class="input-field col s4">
+		<div class="input-field col s6">
           <input name="autor"id="autor" type="text" class="validate">
           <label for="autor">Autor</label>
         </div>
 	   </div>
 	   <div class="row">
-	   <div class="input-field col s4">
+	   <div class="input-field col s6">
           <input name="cantEjemp"id="cantEjemp" type="text" class="validate">
           <label for="cantEjemp">Cantidad de Ejemplares</label>
         </div>
 	   </div>
 	   
-	   <button method="POST" type="submit">Enviar</button>
-	 
-	  <a class="waves-effect waves-light btn" href="http://localhost/biblioteca/src/app/app.component.html">Volver</a>
+     <div>
+	   <button class="waves-effect waves-light btn" method="POST" type="submit">Enviar</button>
+     </div>
+	  
      
     </form>
   </div>
 	  </table>
 	  </div>
+
+     <div class="social">
+       <ul>
+	     <li><a href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+		 <li><a href="http://www.whatsapp.com" target="_blank" class="icon-whatsapp"></a></li>
+		 <li><a href="http://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
+		 <li><a href="http://www.googleplus.com" target="_blank" class="icon-google-plus3"></a></li>
+		 <li><a href="http://www.twitter.com" target="_blank" class="icon-twitter"></a></li>
+		 <li><a href="http://www.youtube.com" target="_blank" class="icon-youtube"></a></li>
+	   </ul>
+  </div>
     </body>
   </html>
         

@@ -82,6 +82,18 @@
 			 </tbody>
 		  </table>
 	  </center>
+
+
+		 <div class="social">
+       <ul>
+	     <li><a href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+		 <li><a href="http://www.whatsapp.com" target="_blank" class="icon-whatsapp"></a></li>
+		 <li><a href="http://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
+		 <li><a href="http://www.googleplus.com" target="_blank" class="icon-google-plus3"></a></li>
+		 <li><a href="http://www.twitter.com" target="_blank" class="icon-twitter"></a></li>
+		 <li><a href="http://www.youtube.com" target="_blank" class="icon-youtube"></a></li>
+	   </ul>
+  </div>
     </body>
   </html>
   
