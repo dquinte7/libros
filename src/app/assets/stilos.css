@@ -255,8 +255,10 @@ div#textt4 p {
     max-width: 1000px;
     margin:auto;
 }
-.reg{
-    width:95%;
+.images img{
+    width: 20px;
+    height: 10px;
     max-width: 1000px;
-    margin:auto;
-}
+    margin: 20px auto;
+    overflow: hidden;
+    }
