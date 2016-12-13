@@ -2,6 +2,13 @@
   <html>
     <head>
 	<meta charset="UTF-8">
+
+	 <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="assets/stilos.css">
+      <link rel="stylesheet" href="fonts.css">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="assets/main.js"></script>
+
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -36,9 +43,9 @@
 	  
 	  
 	  
-	  <a class="waves-effect waves-light btn" href="http://localhost/biblioteca/src/app/app.component.html">Volver</a>
-	  </form>
+	 </form>
 	  <center>
+			<div class="formu">
 	    <form action="eliminar.php" method="POST">
 	      <table class="bordered" border="3">
 		    <thead>
@@ -88,7 +95,20 @@
 				
 			 </tbody>
 		  </table>
+			</div>
 	  </center>
 	    </form>
+
+			 <div class="social">
+       <ul>
+	     <li><a href="http://www.facebook.com" target="_blank" class="icon-facebook"></a></li>
+		 <li><a href="http://www.whatsapp.com" target="_blank" class="icon-whatsapp"></a></li>
+		 <li><a href="http://www.instagram.com" target="_blank" class="icon-instagram"></a></li>
+		 <li><a href="http://www.googleplus.com" target="_blank" class="icon-google-plus3"></a></li>
+		 <li><a href="http://www.twitter.com" target="_blank" class="icon-twitter"></a></li>
+		 <li><a href="http://www.youtube.com" target="_blank" class="icon-youtube"></a></li>
+	   </ul>
+  </div>
+	
     </body>
   </html>

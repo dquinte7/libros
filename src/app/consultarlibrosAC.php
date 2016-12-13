@@ -2,6 +2,13 @@
   <html>
     <head>
 	<meta charset="UTF-8">
+
+	 <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="assets/stilos.css">
+      <link rel="stylesheet" href="fonts.css">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="assets/main.js"></script>
+			
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -36,9 +43,9 @@
 	  
 	  
 	  
-	  <a class="waves-effect waves-light btn" href="http://localhost/biblioteca/src/app/app.component.html">Volver</a>
-	 
+	  
 	  <center>
+			<div class="formu">
 	  <form action="consultaestado.php" method="POST">
 	      <table class="bordered" border="3">
 		    <thead>
@@ -92,6 +99,7 @@
 			 </tbody>
 		  </table>
 		  </form>
+			</div>
 	  </center>
 
 

@@ -2,6 +2,14 @@
   <html>
     <head>
 	<meta charset="UTF-8">
+
+	  <link rel="stylesheet" href="css/estilos.css">
+      <link rel="stylesheet" href="assets/stilos.css">
+      <link rel="stylesheet" href="fonts.css">
+      <script src="http://code.jquery.com/jquery-latest.js"></script>
+      <script src="assets/main.js"></script>
+
+
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -34,10 +42,10 @@
 	  <h1 colspan="12" align="center" class="Estilo1" >Consultar todos los libros</h1>
 	  
 	  
-	  
-	  <a class="waves-effect waves-light btn" href="http://localhost/biblioteca/src/app/app.component.html">Volver</a>
+	
 	  </form>
 	  <center>
+			<div class="formu">
 	      <table class="bordered" border="3">
 		    <thead>
 			   <tr>
@@ -81,6 +89,7 @@
 				?>
 			 </tbody>
 		  </table>
+			</div>
 	  </center>
 
 
